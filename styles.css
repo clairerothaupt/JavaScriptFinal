@@ -35,8 +35,8 @@ html {
     padding: 0.5em 1em;
     border-radius: 4px;
     border: none;
-    background-color: #0080ff;
-    color: #fff;
+    background-color: #ffff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
   }
   h1 {
@@ -71,7 +71,7 @@ html {
   }
   nav a:hover {
     background-color: #4a2b3d;
-    color:#ffffff;
+    color:#ffff;
   }
   [href="#top"] {
     position:fixed;
@@ -140,7 +140,7 @@ textarea{
 }
 
 input:focus, textarea:focus{
-	border-color: blue;
+	border-color: white;
 	box-shadow: 0 0 0 3px rgba(34, 34, 34, 0.3);
 	border-radius: 4px;
 }
@@ -191,7 +191,7 @@ h1 {
 .btn-header {
     margin: .5em 15% 2em 15%;
     color: white;
-    border: 2px solid #2D9CDB;
+    border: 2px solid #ffff;
     background-color: rgba(255, 255, 255, .1);
     border-radius: 0;
     font-size: 1.5em;
@@ -207,7 +207,7 @@ h1 {
 .btn-play {
     display: block;
     margin: 0 auto;
-    color: #2D9CDB;
+    color: #ffff;
     font-size: 4em;
     border-radius: 50%;
     width: 100px;
@@ -218,14 +218,14 @@ h1 {
 
 .btn-primary {
     color: white;
-    background-color: #56CCF2;
+    background-color: #ffff;
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
 .btn-primary:hover {
-    background-color: #2D9CDB;
+    background-color: #ffff;
 }
 
 .shop-item {
@@ -324,7 +324,7 @@ h1 {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #ffff;
     background-color: #eee;
     color: #333;
     padding: 0;
