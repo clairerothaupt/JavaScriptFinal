@@ -182,7 +182,7 @@ h1 {
 
 .btn-header {
     margin: .5em 15% 2em 15%;
-    color: white;
+    color: black;
     border: 2px solid #ffff;
     background-color: rgba(255, 255, 255, .1);
     border-radius: 0;
@@ -199,7 +199,7 @@ h1 {
 .btn-play {
     display: block;
     margin: 0 auto;
-    color: #ffff;
+    color: black;
     font-size: 4em;
     border-radius: 50%;
     width: 100px;
