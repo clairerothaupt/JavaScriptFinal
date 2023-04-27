@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="final.js" async></script>
+</head>
+<body>
+    <header id="top">
+        <h1>Claire Rothaupt</h1>
+        <nav>
+            <ol>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">About Me</a></li>
+              <li><a href="#top">Top</a></li>
+            </ol>
+            </nav>
+    </header>
+    <main>
+        <section>
+          <h2>Graphic Design</h2>
+          <section class="about">
+          <h3>Studies</h3>
+          <p>I have been studying graphic design at ASU for the last two years.</p>
+      </section>
+      <section>
+        <form>
+            <label for="myName">Full Name<span class="required">*</span></label>
+            <input type="text" id="myName" name="myName" autocomplete="name" required>
+            <label for="myEmail">Email<span class="required">*</span></label>
+            <input type="email" id="myEmail" name="myEmail" autocomplete="email" required>
+            <label for="myPhone">Phone<span class="required">*</span></label>
+            <input type="tel" id="myPhone" name="myPhone" autocomplete="phone" required>
+            <fieldset>
+                <legend>Preferred Contact Method<span class="required">*</span></legend>
+                <input type="radio" name="contactPref" id="prefPhone" required>
+                <label for="prefPhone">Phone</label>
+                <input type="radio" name="contactPref" id="prefEmail" required>
+                <label for="prefEmail">Email</label>
+            </fieldset>
+            <label for="message">Message<span class="required">*</span></label>
+            <textarea required></textarea>
+            <input type="submit" name="mySubmit" id="mySubmit">
+        </form>
+    </section>
+
+    <section>
+        <section class="container content-section">
+            <h2 class="section-header">Shoes</h2>
+            <section class="shop-items">
+                <section class="shop-item">
+                    <span class="shop-item-title">Jordans</span>
+                    <img class="shop-item-image" src="Screen Shot 2023-04-26 at 11.13.17 PM.png">
+                    <section class="shop-item-details">
+                        <span class="shop-item-price">$125.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </section>
+                </section>
+                <section class="shop-item">
+                    <span class="shop-item-title">Jordans</span>
+                    <img class="shop-item-image" src="Screen Shot 2023-04-26 at 11.13.40 PM.png">
+                    <section class="shop-item-details">
+                        <span class="shop-item-price">$145.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </section>
+                </section>
+                <section class="shop-item">
+                    <span class="shop-item-title">Jordans</span>
+                    <img class="shop-item-image" src="Screen Shot 2023-04-26 at 11.13.56 PM.png">
+                    <section class="shop-item-details">
+                        <span class="shop-item-price">$199.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <section class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </section>
+            <section class="cart-items">
+            </section>
+            <section class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </section>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        
+    </section>
+</body>
+</html>
